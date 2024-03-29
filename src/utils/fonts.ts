@@ -1,3 +1,4 @@
+"use client";
 import { Nunito } from "next/font/google";
 
 const NunitoFonts = Nunito({

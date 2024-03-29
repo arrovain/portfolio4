@@ -1,13 +1,9 @@
 import "./globals.css";
 import { Metadata } from "next";
-import NunitoFonts from "../../utils/fonts";
-import { GoogleAnalytics } from "../../components/components";
-import {
-  OFFICIAL_AUTHOR_URL,
-  OFFICIAL_OG_IMAGE_URL,
-  OFFICIAL_PLATOFORM_TWITTER_URL,
-  OFFICIAL_TWITTER_IMAGE_URL,
-} from "@/utils/constants";
+import NunitoFonts from "../utils/fonts";
+import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
+
+import { motion } from "framer-motion";
 
 const nunito = NunitoFonts;
 
@@ -31,14 +27,13 @@ export const metadata: Metadata = {
   description: "Front-End Software Developer",
   authors: {
     name: "Mahmut İÇME",
-    url: OFFICIAL_PLATOFORM_TWITTER_URL,
+    url: "https://github.com/",
   },
-  keywords: ["Mahmut İÇME", ,],
+  keywords: ["Mahmut İÇME"],
   icons: {
     icon: "/",
     shortcut: "",
   },
-  metadataBase: new URL(OFFICIAL_AUTHOR_URL),
   alternates: {
     canonical: "/",
   },
@@ -51,26 +46,10 @@ export const metadata: Metadata = {
     type: "website",
     url: "/",
     images: {
-      url: OFFICIAL_OG_IMAGE_URL,
+      url: "",
       alt: "",
       width: 240,
       height: 240,
-    },
-  },
-
-  twitter: {
-    card: "summary_large_image",
-    site: OFFICIAL_AUTHOR_URL,
-    creator: "@quiet_node",
-    creatorId: "1525316662429360131",
-    title: "Quiet Node | Portfolio",
-    description:
-      "Full-stack Web 3.0 Software Developer | DLT Enthusiast | Junior Smart Contract Developer",
-    images: {
-      url: OFFICIAL_TWITTER_IMAGE_URL,
-      alt: "Syns Platform Social Image",
-      width: 120,
-      height: 120,
     },
   },
 };
