@@ -1,8 +1,8 @@
+"use client";
 import "./globals.css";
 import { Metadata } from "next";
 import NunitoFonts from "../utils/fonts";
 import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
-
 import { motion } from "framer-motion";
 
 const nunito = NunitoFonts;
@@ -22,8 +22,8 @@ export default function RootLayout({
   );
 }
 
-export const metadata: Metadata = {
-  title: "Quiet Node | Portfolio",
+export const Metadata: Metadata = {
+  title: "Mahmut İÇME | Portfolio",
   description: "Front-End Software Developer",
   authors: {
     name: "Mahmut İÇME",
