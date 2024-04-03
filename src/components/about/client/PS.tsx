@@ -1,5 +1,5 @@
 "use client";
-
+import { SmotionP } from "../../../../libs/framer-motion";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
@@ -7,9 +7,9 @@ const PS = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { margin: "100% 0% -9% 0%" });
   return (
-    <motion.div ref={ref} className=" w-fit">
+    <div ref={ref} className=" w-fit">
       {isInView ? (
-        <motion.div
+        <SmotionP
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ amount: "some", margin: "100% 0% -9% 0%" }}
@@ -21,12 +21,12 @@ const PS = () => {
           <motion.span className="hidden sm:inline-block">positive</motion.span>{" "}
           changes and <motion.br className="hidden xsm:block sm:hidden" />{" "}
           improve the world.
-        </motion.div>
+        </SmotionP>
       ) : (
         <></>
       )}
 
-      <motion.div
+      <SmotionP
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, delay: 0.6 }}
@@ -38,8 +38,8 @@ const PS = () => {
         <motion.span className="hidden sm:inline-block">positive</motion.span>{" "}
         changes and <motion.br className="hidden xsm:block sm:hidden" /> improve
         the world.
-      </motion.div>
-    </motion.div>
+      </SmotionP>
+    </div>
   );
 };
 

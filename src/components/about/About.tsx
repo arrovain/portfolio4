@@ -1,33 +1,33 @@
 "use client";
-
+import { SmotionDiv, SmotionHeader } from "../../../libs/framer-motion";
 import PS from "./client/PS";
 import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <motion.div
+    <section
       className="overflow-hidden scrollbar-hidden bg-primary
                 h-[400px]
                 md:h-[450px]
                 lg:h-[500px]"
     >
-      <motion.div
+      <div
         className="flex flex-col items-center text-white
                 mt-6
                 sm:mt-9
                 md:mt-12
                 2xl:max-w-[100rem] 2xl:mx-auto"
       >
-        <motion.div>
-          <motion.div
+        <div>
+          <SmotionHeader
             initial={{ opacity: 0, x: -90 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.3 }}
             viewport={{ amount: "some", margin: "100% 0% -8% 0%" }}
             className="text-3xl sm:text-4xl font-extrabold"
-          ></motion.div>
+          ></SmotionHeader>
           About.
-          <motion.div
+          <SmotionDiv
             initial={{ opacity: 0, x: 90 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.3, delay: 0.38 }}
@@ -35,10 +35,10 @@ const About = () => {
             className="flex justify-center -mt-0.5"
           >
             <hr className="bg-white h-[0.2rem] w-12 sm:w-16 rounded-xl" />
-          </motion.div>
-        </motion.div>
+          </SmotionDiv>
+        </div>
 
-        <motion.div
+        <SmotionDiv
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3, delay: 0.5 }}
@@ -48,7 +48,7 @@ const About = () => {
                 md:mt-12 md:text-xl
                 lg:px-9"
         >
-          <motion.div>
+          <SmotionDiv>
             <p>
               An avid technology believer{" "}
               <br className="hidden xxsm:block xsm:hidden" /> who is{" "}
@@ -60,38 +60,38 @@ const About = () => {
               web <br className="hidden xxsm:block xsm:hidden" /> and AI can
               revolutionize the future.
             </p>
-          </motion.div>
+          </SmotionDiv>
 
-          <motion.div className="hidden sm:block">
-            <motion.p>
+          <SmotionDiv className="hidden sm:block">
+            <p>
               Through commitment to professionalism,{" "}
-              <motion.span className="sm:hidden md:inline">and </motion.span>
+              <span className="sm:hidden md:inline">and </span>
               <span className="hidden lg:inline">focus on</span>{" "}
               <span className="sm:hidden md:inline">excellence,</span>
               I am passionate <br className="hidden md:block lg:hidden" /> about{" "}
               <br className="hidden lg:block" /> creating{" "}
               <br className="hidden sm:block md:hidden lg:hidden" /> elegant and{" "}
-              <motion.span className="lg:hidden">agile</motion.span>{" "}
-              <motion.span
+              <span className="lg:hidden">agile</span>{" "}
+              <span
                 className="hidden lg:inline
               "
               >
                 efficient{" "}
-              </motion.span>
+              </span>
               solutions bringing novelty and comfort to{" "}
-              <motion.span className="lg:hidden">life.</motion.span>{" "}
-              <motion.span className="hidden lg:inline">
+              <span className="lg:hidden">life.</span>{" "}
+              <span className="hidden lg:inline">
                 all aspects of human life
-              </motion.span>
-            </motion.p>
-          </motion.div>
+              </span>
+            </p>
+          </SmotionDiv>
 
-          <motion.div className="mt-6 flex justify-center">
+          <div className="mt-6 flex justify-center">
             <PS />
-          </motion.div>
-        </motion.div>
-      </motion.div>
-    </motion.div>
+          </div>
+        </SmotionDiv>
+      </div>
+    </section>
   );
 };
 
