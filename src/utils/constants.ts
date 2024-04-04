@@ -1,10 +1,8 @@
 "use client";
-export const QUIET_NODE_PORTFOLIO_V2_GITHUB_LINK =
-  "https://github.com/arrovain";
 
-export const QUIET_NODE_GITHUB_LINK = "https://github.com/arrovain";
+export const GITHUB_LINK = "https://github.com/arrovain";
 
-export const QUIET_NODE_LINKEDIN_LINK = "https://linkedin.com/in/mahmut.icme";
+export const LINKEDIN_LINK = "https://linkedin.com/in/mahmut.icme";
 
 export const GO_LINK = "https://go.dev/";
 export const TS_LINK = "https://typescriptlang.org/";

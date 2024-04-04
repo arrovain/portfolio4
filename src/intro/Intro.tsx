@@ -8,10 +8,7 @@ import {
   SmotionHeader,
   SmotionSpan,
 } from "@/libs/framer-motion";
-import {
-  QUIET_NODE_LINKEDIN_LINK,
-  QUIET_NODE_GITHUB_LINK,
-} from "@/utils/constants";
+import { LINKEDIN_LINK, GITHUB_LINK } from "@/utils/constants";
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -97,7 +94,7 @@ const Intro = () => {
               viewport={{ once: true }}
               whileHover={{ y: -0.5 }}
               transition={{ duration: 0.6, delay: 1.2 }}
-              href={QUIET_NODE_LINKEDIN_LINK as string}
+              href={LINKEDIN_LINK as string}
               target="_blank"
               className="cursor-pointer hover:text-[#0A66C2]"
               title="LinkedIn"
@@ -117,27 +114,13 @@ const Intro = () => {
             >
               <AiFillGithub />
             </SmotionLink>
-
-            <SmotionLink
-              initial={{ opacity: 0, y: 21 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              whileHover={{ y: -0.5 }}
-              transition={{ duration: 0.6, delay: 1.1 }}
-              href={QUIET_NODE_TWITTER_LINK}
-              target="_blank"
-              className="cursor-pointer hover:text-[#1DA1F2]"
-              title="Twitter"
-            >
-              <AiFillTwitterCircle />
-            </SmotionLink>
             <SmotionLink
               initial={{ opacity: 0, x: 21 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               whileHover={{ y: -0.5 }}
               transition={{ duration: 0.6, delay: 1.2 }}
-              href={QUIET_NODE_EMAIL_LINK}
+              href={EMAIL_LINK}
               target="_blank"
               className="cursor-pointer hover:text-red-600 flex items-center"
               title="Gmail"
