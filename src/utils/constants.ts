@@ -1,7 +1,7 @@
 "use client";
 
 export const GITHUB_LINK = "https://github.com/arrovain";
-
+export const EMAIL_LINK = "mailto:icmemahmut@gmail.com";
 export const LINKEDIN_LINK = "https://linkedin.com/in/mahmut.icme";
 
 export const GO_LINK = "https://go.dev/";
@@ -262,5 +262,29 @@ export const PROJECTS_LISTS: Project[] = [
     cssDesc: "ui/ux-desc",
     cssBtn: "ui/ux-btn",
     cssUnderline: "ui/ux-underline",
+  },
+];
+
+export const SOCIAL_FOOTER = [
+  {
+    id: 0,
+    title: "Github",
+    desc: "My Projects.",
+    link: GITHUB_LINK,
+    bgClass: "bg-github",
+  },
+  {
+    id: 2,
+    title: "LinkedIn",
+    desc: "Professional social media.",
+    link: LINKEDIN_LINK,
+    bgClass: "bg-linkedin",
+  },
+  {
+    id: 4,
+    title: "Gmail",
+    desc: "Main communicating media.",
+    link: EMAIL_LINK,
+    bgClass: "bg-gmail",
   },
 ];
