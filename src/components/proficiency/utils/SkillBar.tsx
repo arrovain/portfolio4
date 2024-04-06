@@ -11,13 +11,7 @@ interface PageProps {
   left?: boolean;
 }
 
-const SkillProficientBar = ({
-  value,
-  logo,
-  techLink,
-  left,
-  shouldShake,
-}: PageProps) => {
+const SkillBar = ({ value, logo, techLink, left, shouldShake }: PageProps) => {
   const shakingAnimation = useAnimation();
   const percentageRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -85,7 +79,7 @@ const SkillProficientBar = ({
       >
         <motion.div
           whileInView={{
-            width: `${value}%`,
+            width: "100%",
           }}
           viewport={{ once: true }}
           transition={{
@@ -100,12 +94,9 @@ const SkillProficientBar = ({
         className="flex justify-center text-teal-600
                 w-9 text-base font-bold
                 sm:w-12 sm:text-lg sm:font-extrabold"
-      >
-        <p ref={percentageRef}>0</p>
-        <p>%</p>
-      </div>
+      ></div>
     </div>
   );
 };
 
-export default SkillProficientBar;
+export default SkillBar;

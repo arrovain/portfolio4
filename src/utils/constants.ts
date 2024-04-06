@@ -45,12 +45,6 @@ export const FIGMA_LINK = "https://www.figma.com/";
 
 export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
   {
-    technology: "Golang",
-    value: 85,
-    techLink: GO_LINK,
-    shouldShake: false,
-  },
-  {
     technology: "TypeScript",
     value: 92,
     techLink: TS_LINK,
@@ -95,53 +89,16 @@ export const MAIN_RIGHT_SKILLS_LISTS: Technology[] = [
     techLink: NEXT_LINK,
     shouldShake: false,
   },
-  {
-    technology: "SpringBoot",
-    value: 72,
-    techLink: SPRING_LINK,
-    shouldShake: false,
-  },
-  {
-    technology: "Hardhat",
-    value: 72,
-    techLink: HARDHAT_LINK,
-    shouldShake: false,
-  },
+
   {
     technology: "NodeJS",
     value: 87,
     techLink: NODE_LINK,
     shouldShake: false,
   },
-  {
-    technology: "Docker",
-    value: 75,
-    techLink: DOCKER_LINK,
-    shouldShake: false,
-  },
 ];
 
 export const MORE_SKILLS_LISTS: Technology[] = [
-  {
-    technology: "OpenAI",
-    techLink: OPENAI_LINK,
-    shouldShake: false,
-  },
-  {
-    technology: "Ethereum",
-    techLink: ETHEREUM_LINK,
-    shouldShake: false,
-  },
-  {
-    technology: "OpenZeppelin",
-    techLink: OZ_LINK,
-    shouldShake: false,
-  },
-  {
-    technology: "MochaJS",
-    techLink: MOCHA_LINK,
-    shouldShake: false,
-  },
   {
     technology: "Redux",
     techLink: REDUX_LINK,
@@ -150,11 +107,6 @@ export const MORE_SKILLS_LISTS: Technology[] = [
   {
     technology: "PostgresQL",
     techLink: POSTGRES_LINK,
-    shouldShake: false,
-  },
-  {
-    technology: "aws",
-    techLink: AWS_LINK,
     shouldShake: false,
   },
   {
@@ -167,27 +119,12 @@ export const MORE_SKILLS_LISTS: Technology[] = [
     techLink: NETLIFY_LINK,
     shouldShake: false,
   },
-  {
-    technology: "DynamoDB",
-    techLink: DYNAMO_LINK,
-    shouldShake: false,
-  },
-  {
-    technology: "Kotlin",
-    techLink: KOT_LINK,
-    shouldShake: false,
-  },
-  {
-    technology: "SwiftUI",
-    techLink: SWIFT_LINK,
-    shouldShake: false,
-  },
 ];
 
 export const PROJECTS_LISTS: Project[] = [
   {
-    id: 0,
-    title: "Syns Platform",
+    id: 1,
+    title: "Apple Website",
     stacks: {
       FE: [
         {
@@ -211,28 +148,172 @@ export const PROJECTS_LISTS: Project[] = [
           shouldShake: false,
         },
       ],
-      BC: [
+
+      BE: [
         {
-          technology: "Ethereum",
-          techLink: ETHEREUM_LINK,
+          technology: "MongoDB",
+          techLink: MONGO_LINK,
           shouldShake: false,
         },
         {
-          technology: "Polygon",
-          techLink: POLYGON_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "Solidity",
-          techLink: SOL_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "OpenZeppelin",
-          techLink: OZ_LINK,
+          technology: "Vercel",
+          techLink: VERCEL_LINK,
           shouldShake: false,
         },
       ],
+      Mobile: [],
+    },
+    description: "An ui/ux web site",
+    repoLink: "https://github.com/",
+    liveLink: "https://github.com",
+    demoLink: "",
+    thumbnail: "uiux.svg",
+    cssWrapper: "uiux-platform",
+    cssWrapperSm: "uiux-sm",
+    cssDesc: "uiux-desc",
+    cssBtn: "uiux-btn",
+    cssUnderline: "uiux-underline",
+  },
+  {
+    id: 0,
+    title: "ecommerce",
+    stacks: {
+      FE: [
+        {
+          technology: "TypeScript",
+          techLink: TS_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "NextJS",
+          techLink: NEXT_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "ReactJS",
+          techLink: REACT_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "TailwindCSS",
+          techLink: TAILWIND_LINK,
+          shouldShake: false,
+        },
+      ],
+      BE: [
+        {
+          technology: "Golang",
+          techLink: GO_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "MongoDB",
+          techLink: MONGO_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "Vercel",
+          techLink: VERCEL_LINK,
+          shouldShake: false,
+        },
+      ],
+      Mobile: [],
+    },
+    description: "An ecommerce site",
+    repoLink: "https://github.com/",
+    liveLink: "",
+    demoLink: "",
+    thumbnail: "ui/ux/syns-platform-devices.svg",
+    cssWrapper: "ecommerce",
+    cssWrapperSm: "ecommerce-sm",
+    cssDesc: "ecommerce-desc",
+    cssBtn: "ecommerce-btn",
+    cssUnderline: "ecommerce-underline",
+  },
+  {
+    id: 3,
+    title: "Apple Website",
+    stacks: {
+      FE: [
+        {
+          technology: "TypeScript",
+          techLink: TS_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "NextJS",
+          techLink: NEXT_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "ReactJS",
+          techLink: REACT_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "TailwindCSS",
+          techLink: TAILWIND_LINK,
+          shouldShake: false,
+        },
+      ],
+
+      BE: [
+        {
+          technology: "Golang",
+          techLink: GO_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "MongoDB",
+          techLink: MONGO_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "Vercel",
+          techLink: VERCEL_LINK,
+          shouldShake: false,
+        },
+      ],
+      Mobile: [],
+    },
+    description: "An ui/ux web site",
+    repoLink: "https://github.com/",
+    liveLink: "",
+    demoLink: "",
+    thumbnail: "ui/ux/syns-platform-devices.svg",
+    cssWrapper: "ui/ux-platform",
+    cssWrapperSm: "ui/ux-sm",
+    cssDesc: "ui/ux-desc",
+    cssBtn: "ui/ux-btn",
+    cssUnderline: "ui/ux-underline",
+  },
+  {
+    id: 4,
+    title: "Apple Website",
+    stacks: {
+      FE: [
+        {
+          technology: "TypeScript",
+          techLink: TS_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "NextJS",
+          techLink: NEXT_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "ReactJS",
+          techLink: REACT_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "TailwindCSS",
+          techLink: TAILWIND_LINK,
+          shouldShake: false,
+        },
+      ],
+
       BE: [
         {
           technology: "Golang",

@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import useScreenSizes from "@/hooks/useWindowSize";
 import { useAnimation, motion } from "framer-motion";
-import SkillProficientBar from "./utils/SkillProficientBar";
+import SkillProficientBar from "./utils/SkillBar";
 import { SmotionDiv, SmotionHeader } from "../../../libs/framer-motion";
 import {
   MORE_SKILLS_LISTS,
@@ -15,7 +15,7 @@ import {
   HorizontalCommonVariants,
 } from "@/utils/framerVariants";
 
-const Stats = () => {
+const Skills = () => {
   const shakingAnimation = useAnimation();
   const [isSmall, isMedium] = useScreenSizes();
   const [mounted, setMounted] = useState(false);
@@ -88,7 +88,7 @@ const Stats = () => {
             viewport={{ amount: "some", margin: "100% 0% -8% 0%" }}
             className="text-3xl sm:text-4xl font-extrabold text-primary drop-shadow-2xl"
           >
-            Proficiency.
+            Skills.
           </SmotionHeader>
           <SmotionDiv
             initial={{ opacity: 0, x: -90 }}
@@ -319,4 +319,4 @@ const Stats = () => {
   );
 };
 
-export default Stats;
+export default Skills;

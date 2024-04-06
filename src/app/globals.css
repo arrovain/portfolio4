@@ -92,41 +92,41 @@
     box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
   }
 
-  .syns-platform {
+  .uiux-platform {
     background-image: linear-gradient(to left, #efd8c9, #f8ad7b);
     color: #553932;
   }
-  .syns-platform-sm {
+  .uiux-sm {
     background-image: linear-gradient(to top, #efd8c9, #f8ad7b);
     color: #553932;
   }
 
-  .syns-platform-desc {
+  .uiux-desc {
     color: #7b5649;
   }
-  .syns-platform-btn {
+  .uiux-btn {
     color: #942d3e;
   }
-  .syns-platform-underline {
+  .uiux-underline {
     background-color: #942d3e;
     border: none;
   }
 
-  .hedro-ai {
+  .ecommerce {
     background-image: linear-gradient(to left, #e0dcc8, #f2f1ea);
     color: #27d0ba;
   }
-  .hedro-ai-sm {
+  .ecommerce-sm {
     background-image: linear-gradient(to top, #d1cdb3, #f2f1ea);
     color: #03172f;
   }
-  .hedro-ai-desc {
+  .ecommerce-desc {
     color: #1bac99;
   }
-  .hedro-ai-btn {
+  .ecommerce-btn {
     color: #13b29d;
   }
-  .hedro-ai-underline {
+  .ecommerce-underline {
     background-color: #1c9484;
     border: none;
   }
