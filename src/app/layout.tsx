@@ -1,5 +1,6 @@
+"use client";
 import "./globals.css";
-import { Metadata } from "next";
+
 import NunitoFonts from "../utils/fonts";
 import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
 import { motion } from "framer-motion";
@@ -21,7 +22,7 @@ export default function RootLayout({
   );
 }
 
-export const metadata: Metadata = {
+export const Metadata = {
   title: "Mahmut İÇME | Portfolio",
   description: "Front-End Software Developer",
   authors: {
