@@ -22,7 +22,7 @@ export default function RootLayout({
   );
 }
 
-export const Metadata: Metadata = {
+export const metadata: Metadata = {
   title: "Mahmut İÇME | Portfolio",
   description: "Front-End Software Developer",
   authors: {
