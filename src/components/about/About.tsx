@@ -50,40 +50,14 @@ const About = () => {
         >
           <SmotionDiv>
             <p>
-              An avid technology believer{" "}
-              <br className="hidden xxsm:block xsm:hidden" /> who is{" "}
-              <br className="hidden xsm:block sm:hidden" /> continually
-              intrigued <br className="hidden lg:block" /> by{" "}
-              <br className="hidden xxsm:block xsm:hidden" /> the{" "}
-              <br className="hidden sm:block lg:hidden" />
-              immense potential <br className="hidden xsm:block sm:hidden" /> of
-              web <br className="hidden xxsm:block xsm:hidden" /> and AI can
-              revolutionize the future.
+              Front-End Developer with 2+ years of experience designing,
+              developing, and managing complex e-commerce sites and internal
+              frameworks. Specializes in React and responsive design.
             </p>
           </SmotionDiv>
 
           <SmotionDiv className="hidden sm:block">
-            <p>
-              Through commitment to professionalism,{" "}
-              <span className="sm:hidden md:inline">and </span>
-              <span className="hidden lg:inline">focus on</span>{" "}
-              <span className="sm:hidden md:inline">excellence,</span>
-              I am passionate <br className="hidden md:block lg:hidden" /> about{" "}
-              <br className="hidden lg:block" /> creating{" "}
-              <br className="hidden sm:block md:hidden lg:hidden" /> elegant and{" "}
-              <span className="lg:hidden">agile</span>{" "}
-              <span
-                className="hidden lg:inline
-              "
-              >
-                efficient{" "}
-              </span>
-              solutions bringing novelty and comfort to{" "}
-              <span className="lg:hidden">life.</span>{" "}
-              <span className="hidden lg:inline">
-                all aspects of human life
-              </span>
-            </p>
+            <p></p>
           </SmotionDiv>
 
           <div className="mt-6 flex justify-center">

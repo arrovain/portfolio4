@@ -7,7 +7,6 @@ export const LINKEDIN_LINK = "https://linkedin.com/in/mahmut.icme";
 export const GO_LINK = "https://go.dev/";
 export const TS_LINK = "https://typescriptlang.org/";
 export const OPENAI_LINK = "https://openai.com/";
-export const SOL_LINK = "https://soliditylang.org/";
 export const JAVA_LINK = "https://java.com/";
 export const MONGO_LINK = "https://mongodb.com/";
 export const TAILWIND_LINK = "https://tailwindcss.com/";
@@ -50,18 +49,7 @@ export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
     techLink: TS_LINK,
     shouldShake: false,
   },
-  {
-    technology: "Solidity",
-    value: 75,
-    techLink: SOL_LINK,
-    shouldShake: false,
-  },
-  {
-    technology: "Java",
-    value: 88,
-    techLink: JAVA_LINK,
-    shouldShake: false,
-  },
+
   {
     technology: "MongoDB",
     value: 82,
@@ -123,8 +111,112 @@ export const MORE_SKILLS_LISTS: Technology[] = [
 
 export const PROJECTS_LISTS: Project[] = [
   {
+    id: 3,
+    title: "portfolio2",
+    stacks: {
+      FE: [
+        {
+          technology: "TypeScript",
+          techLink: TS_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "NextJS",
+          techLink: NEXT_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "ReactJS",
+          techLink: REACT_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "TailwindCSS",
+          techLink: TAILWIND_LINK,
+          shouldShake: false,
+        },
+      ],
+
+      BE: [
+        {
+          technology: "MongoDB",
+          techLink: MONGO_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "Vercel",
+          techLink: VERCEL_LINK,
+          shouldShake: false,
+        },
+      ],
+      Mobile: [],
+    },
+    description: "An ui/ux web site",
+    repoLink: "https://github.com/",
+    liveLink: "",
+    demoLink: "",
+    thumbnail: "apple_website/apple.svg",
+    cssWrapper: "ui/ux-platform",
+    cssWrapperSm: "ui/ux-sm",
+    cssDesc: "ui/ux-desc",
+    cssBtn: "ui/ux-btn",
+    cssUnderline: "ui/ux-underline",
+  },
+  {
+    id: 4,
+    title: "uiux",
+    stacks: {
+      FE: [
+        {
+          technology: "TypeScript",
+          techLink: TS_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "NextJS",
+          techLink: NEXT_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "ReactJS",
+          techLink: REACT_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "TailwindCSS",
+          techLink: TAILWIND_LINK,
+          shouldShake: false,
+        },
+      ],
+
+      BE: [
+        {
+          technology: "MongoDB",
+          techLink: MONGO_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "Vercel",
+          techLink: VERCEL_LINK,
+          shouldShake: false,
+        },
+      ],
+      Mobile: [],
+    },
+    description: "An ui/ux web site",
+    repoLink: "https://github.com/",
+    liveLink: "",
+    demoLink: "",
+    thumbnail: "portfolio2/portfolio2.svg",
+    cssWrapper: "ui",
+    cssWrapperSm: "ui-sm",
+    cssDesc: "ui-desc",
+    cssBtn: "ui-btn",
+    cssUnderline: "ui-underline",
+  },
+  {
     id: 1,
-    title: "Apple Website",
+    title: "uiux2",
     stacks: {
       FE: [
         {
@@ -167,182 +259,12 @@ export const PROJECTS_LISTS: Project[] = [
     repoLink: "https://github.com/",
     liveLink: "https://github.com",
     demoLink: "",
-    thumbnail: "uiux.svg",
-    cssWrapper: "uiux-platform",
-    cssWrapperSm: "uiux-sm",
-    cssDesc: "uiux-desc",
-    cssBtn: "uiux-btn",
-    cssUnderline: "uiux-underline",
-  },
-  {
-    id: 0,
-    title: "ecommerce",
-    stacks: {
-      FE: [
-        {
-          technology: "TypeScript",
-          techLink: TS_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "NextJS",
-          techLink: NEXT_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "ReactJS",
-          techLink: REACT_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "TailwindCSS",
-          techLink: TAILWIND_LINK,
-          shouldShake: false,
-        },
-      ],
-      BE: [
-        {
-          technology: "Golang",
-          techLink: GO_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "MongoDB",
-          techLink: MONGO_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "Vercel",
-          techLink: VERCEL_LINK,
-          shouldShake: false,
-        },
-      ],
-      Mobile: [],
-    },
-    description: "An ecommerce site",
-    repoLink: "https://github.com/",
-    liveLink: "",
-    demoLink: "",
-    thumbnail: "ui/ux/syns-platform-devices.svg",
+    thumbnail: "uiux/uiux.svg",
     cssWrapper: "ecommerce",
     cssWrapperSm: "ecommerce-sm",
     cssDesc: "ecommerce-desc",
     cssBtn: "ecommerce-btn",
     cssUnderline: "ecommerce-underline",
-  },
-  {
-    id: 3,
-    title: "Apple Website",
-    stacks: {
-      FE: [
-        {
-          technology: "TypeScript",
-          techLink: TS_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "NextJS",
-          techLink: NEXT_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "ReactJS",
-          techLink: REACT_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "TailwindCSS",
-          techLink: TAILWIND_LINK,
-          shouldShake: false,
-        },
-      ],
-
-      BE: [
-        {
-          technology: "Golang",
-          techLink: GO_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "MongoDB",
-          techLink: MONGO_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "Vercel",
-          techLink: VERCEL_LINK,
-          shouldShake: false,
-        },
-      ],
-      Mobile: [],
-    },
-    description: "An ui/ux web site",
-    repoLink: "https://github.com/",
-    liveLink: "",
-    demoLink: "",
-    thumbnail: "ui/ux/syns-platform-devices.svg",
-    cssWrapper: "ui/ux-platform",
-    cssWrapperSm: "ui/ux-sm",
-    cssDesc: "ui/ux-desc",
-    cssBtn: "ui/ux-btn",
-    cssUnderline: "ui/ux-underline",
-  },
-  {
-    id: 4,
-    title: "Apple Website",
-    stacks: {
-      FE: [
-        {
-          technology: "TypeScript",
-          techLink: TS_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "NextJS",
-          techLink: NEXT_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "ReactJS",
-          techLink: REACT_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "TailwindCSS",
-          techLink: TAILWIND_LINK,
-          shouldShake: false,
-        },
-      ],
-
-      BE: [
-        {
-          technology: "Golang",
-          techLink: GO_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "MongoDB",
-          techLink: MONGO_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "Vercel",
-          techLink: VERCEL_LINK,
-          shouldShake: false,
-        },
-      ],
-      Mobile: [],
-    },
-    description: "An ui/ux web site",
-    repoLink: "https://github.com/",
-    liveLink: "",
-    demoLink: "",
-    thumbnail: "ui/ux/syns-platform-devices.svg",
-    cssWrapper: "ui/ux-platform",
-    cssWrapperSm: "ui/ux-sm",
-    cssDesc: "ui/ux-desc",
-    cssBtn: "ui/ux-btn",
-    cssUnderline: "ui/ux-underline",
   },
 ];
 

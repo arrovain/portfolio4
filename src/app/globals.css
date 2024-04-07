@@ -131,21 +131,21 @@
     border: none;
   }
 
-  .hedera-dapp-playground {
+  .ui {
     background-image: linear-gradient(to left, #5b82b1, #213751);
     color: #a5c6ef;
   }
-  .hedera-dapp-playground-sm {
+  .ui-sm {
     background-image: linear-gradient(to top, #5b82b1, #1a232e);
     color: #03172f;
   }
-  .hedera-dapp-playground-desc {
+  .ui-desc {
     color: #b8d8ff;
   }
-  .hedera-dapp-playground-btn {
+  .ui-btn {
     color: #b8d8ff;
   }
-  .hedera-dapp-playground-underline {
+  .ui-underline {
     background-color: #b8d8ff;
     border: none;
   }
