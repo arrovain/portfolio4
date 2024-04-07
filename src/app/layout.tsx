@@ -1,6 +1,6 @@
 "use client";
 import "./globals.css";
-
+import { Metadata } from "next";
 import NunitoFonts from "../utils/fonts";
 import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
 import { motion } from "framer-motion";
@@ -14,6 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>Portfolio</title>
+        <meta name="description" content="Description" />
+      </head>
       <body className={nunito.className}>
         <GoogleAnalytics />
         {children}
@@ -21,35 +25,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-export const Metadata = {
-  title: "Mahmut İÇME | Portfolio",
-  description: "Front-End Software Developer",
-  authors: {
-    name: "Mahmut İÇME",
-    url: "https://github.com/",
-  },
-  keywords: ["Mahmut İÇME"],
-  icons: {
-    icon: "/",
-    shortcut: "",
-  },
-  alternates: {
-    canonical: "/",
-  },
-
-  openGraph: {
-    siteName: "Mahmut İÇME's Portfolio",
-    title: "Mahmut İÇME | Portfolio",
-    description: "Front-End Software Developer",
-    locale: "en_US",
-    type: "website",
-    url: "/",
-    images: {
-      url: "",
-      alt: "",
-      width: 240,
-      height: 240,
-    },
-  },
-};
