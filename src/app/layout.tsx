@@ -1,4 +1,3 @@
-"use client";
 import "./globals.css";
 import { Metadata } from "next";
 import NunitoFonts from "../utils/fonts";
