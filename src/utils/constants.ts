@@ -112,7 +112,7 @@ export const MORE_SKILLS_LISTS: Technology[] = [
 export const PROJECTS_LISTS: Project[] = [
   {
     id: 3,
-    title: "portfolio2",
+    title: "apple website",
     stacks: {
       FE: [
         {
@@ -151,8 +151,8 @@ export const PROJECTS_LISTS: Project[] = [
       ],
       Mobile: [],
     },
-    description: "An ui/ux web site",
-    repoLink: "https://github.com/",
+    description: "An ui/ux web site clone",
+    repoLink: "https://github.com/arrovain/threejs-gsap-applewebsite",
     liveLink: "",
     demoLink: "",
     thumbnail: "apple_website/apple.svg",
@@ -164,7 +164,7 @@ export const PROJECTS_LISTS: Project[] = [
   },
   {
     id: 4,
-    title: "uiux",
+    title: "Portfolio",
     stacks: {
       FE: [
         {
@@ -203,8 +203,8 @@ export const PROJECTS_LISTS: Project[] = [
       ],
       Mobile: [],
     },
-    description: "An ui/ux web site",
-    repoLink: "https://github.com/",
+    description: "A portfolio web site",
+    repoLink: "https://github.com/arrovain/react-portfolio",
     liveLink: "",
     demoLink: "",
     thumbnail: "portfolio2/portfolio2.svg",
@@ -256,8 +256,8 @@ export const PROJECTS_LISTS: Project[] = [
       Mobile: [],
     },
     description: "An ui/ux web site",
-    repoLink: "https://github.com/",
-    liveLink: "https://github.com",
+    repoLink: "https://github.com/arrovain/ui-ux",
+    liveLink: "",
     demoLink: "",
     thumbnail: "uiux/uiux.svg",
     cssWrapper: "ecommerce",
