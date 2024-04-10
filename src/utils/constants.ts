@@ -1,9 +1,9 @@
 "use client";
-
+export const BOOTSTRAP_LINK = "https://getbootstrap.com/";
 export const GITHUB_LINK = "https://github.com/arrovain";
 export const EMAIL_LINK = "mailto:icmemahmut@gmail.com";
 export const LINKEDIN_LINK = "https://linkedin.com/in/mahmut.icme";
-
+export const PYTHON_LINK = "https://python.org";
 export const GO_LINK = "https://go.dev/";
 export const TS_LINK = "https://typescriptlang.org/";
 export const OPENAI_LINK = "https://openai.com/";
@@ -45,20 +45,20 @@ export const FIGMA_LINK = "https://www.figma.com/";
 export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
   {
     technology: "TypeScript",
-    value: 92,
+
     techLink: TS_LINK,
     shouldShake: false,
   },
 
   {
     technology: "MongoDB",
-    value: 82,
+
     techLink: MONGO_LINK,
     shouldShake: false,
   },
   {
     technology: "TailwindCSS",
-    value: 87,
+
     techLink: TAILWIND_LINK,
     shouldShake: false,
   },
@@ -67,20 +67,20 @@ export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
 export const MAIN_RIGHT_SKILLS_LISTS: Technology[] = [
   {
     technology: "ReactJS",
-    value: 90,
+
     techLink: REACT_LINK,
     shouldShake: false,
   },
   {
     technology: "NextJS",
-    value: 88,
+
     techLink: NEXT_LINK,
     shouldShake: false,
   },
 
   {
     technology: "NodeJS",
-    value: 87,
+
     techLink: NODE_LINK,
     shouldShake: false,
   },

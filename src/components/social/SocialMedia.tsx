@@ -39,16 +39,11 @@ const SocialMedia = () => {
           <SmotionDiv
             variants={horizontalVariants}
             className="text-xl font-bold"
-          >
-            Let&apos;s be friend!
-          </SmotionDiv>
+          ></SmotionDiv>
           <SmotionDiv
             variants={horizontalVariants}
             className="text-sm tracking-tight font-bold -mt-1 text-gray-500"
-          >
-            Or let&apos;s just...you know...follow and never say anything to
-            each other! SMH...
-          </SmotionDiv>
+          ></SmotionDiv>
         </div>
 
         <SmotionDiv
