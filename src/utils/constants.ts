@@ -1,46 +1,26 @@
-"use client";
 export const BOOTSTRAP_LINK = "https://getbootstrap.com/";
 export const GITHUB_LINK = "https://github.com/arrovain";
 export const EMAIL_LINK = "mailto:icmemahmut@gmail.com";
-export const LINKEDIN_LINK = "https://linkedin.com/in/mahmut.icme";
+export const LINKEDIN_LINK = "https://www.linkedin.com/in/mahmuticme/";
 export const PYTHON_LINK = "https://python.org";
-export const GO_LINK = "https://go.dev/";
 export const TS_LINK = "https://typescriptlang.org/";
-export const OPENAI_LINK = "https://openai.com/";
 export const MONGO_LINK = "https://mongodb.com/";
 export const TAILWIND_LINK = "https://tailwindcss.com/";
 export const FRAMER_LINK = "https://www.framer.com/motion/";
 export const REACT_LINK = "https://reactjs.org/";
 export const NEXT_LINK = "https://nextjs.org/";
 export const SPRING_LINK = "https://spring.io/";
-export const HARDHAT_LINK = "https://hardhat.org/";
 export const NODE_LINK = "https://nodejs.org/";
 export const DOCKER_LINK = "https://docker.com/";
 export const JS_LINK = "https://javascript.com/";
-export const ETHEREUM_LINK = "https://ethereum.org/en/";
-export const HEDERA_LINK = "https://hedera.com";
-export const OZ_LINK = "https://www.openzeppelin.com/";
-export const ETHERSJS_LINK = "https://docs.ethers.org/v6/";
-export const MOCHA_LINK = "https://mochajs.org/";
 export const POSTGRES_LINK = "https://www.postgresql.org/";
-export const AWS_LINK = "https://aws.amazon.com/";
 export const VERCEL_LINK = "https://vercel.com/";
 export const NETLIFY_LINK = "https://www.netlify.com/";
-export const DYNAMO_LINK = "https://aws.amazon.com/dynamodb/";
 export const VITE_LINK = "https://vitejs.dev/";
-export const POLYGON_LINK = "https://polygon.technology/";
-export const OL_LINK = "https://openliberty.io/";
 export const REDUX_LINK = "https://redux.js.org/";
-export const KOT_LINK = "https://kotlinlang.org/";
-export const XML_LINK =
-  "https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction";
-export const ANDROID_LINK = "https://developer.android.com/";
-export const FIRE_LINK = "https://firebase.google.com/";
-export const SWIFT_LINK = "https://developer.apple.com/xcode/swiftui/";
-export const MAC_LINK = "https://support.apple.com/macos";
-export const XCODE_LINK = "https://developer.apple.com/xcode/";
 export const FIGMA_LINK = "https://www.figma.com/";
 export const SENTRY_LINK = "https://sentry.io/";
+export const GIT_LINK = "https://git-scm.com/";
 
 export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
   {
@@ -78,6 +58,16 @@ export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
     technology: "css3",
 
     techLink: "",
+    shouldShake: false,
+  },
+  {
+    technology: "python",
+    techLink: PYTHON_LINK,
+    shouldShake: false,
+  },
+  {
+    technology: "Redux",
+    techLink: REDUX_LINK,
     shouldShake: false,
   },
 ];
@@ -121,17 +111,23 @@ export const MAIN_RIGHT_SKILLS_LISTS: Technology[] = [
     techLink: NODE_LINK,
     shouldShake: false,
   },
-];
-
-export const MORE_SKILLS_LISTS: Technology[] = [
   {
-    technology: "Redux",
-    techLink: REDUX_LINK,
+    technology: "bootstrap",
+
+    techLink: BOOTSTRAP_LINK,
     shouldShake: false,
   },
   {
     technology: "PostgresQL",
     techLink: POSTGRES_LINK,
+    shouldShake: false,
+  },
+];
+
+export const MORE_SKILLS_LISTS: Technology[] = [
+  {
+    technology: "git",
+    techLink: GIT_LINK,
     shouldShake: false,
   },
   {
@@ -142,6 +138,12 @@ export const MORE_SKILLS_LISTS: Technology[] = [
   {
     technology: "Netlify",
     techLink: NETLIFY_LINK,
+    shouldShake: false,
+  },
+  {
+    technology: "vitejs",
+
+    techLink: "VITE_LINK",
     shouldShake: false,
   },
 ];
