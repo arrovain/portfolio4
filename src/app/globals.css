@@ -150,21 +150,21 @@
     border: none;
   }
 
-  .hashtology {
+  .ui3 {
     background-image: linear-gradient(to right, #cb1edc, #5d088f);
     color: #fff;
   }
-  .hashtology-sm {
+  .ui3-sm {
     background-image: linear-gradient(to top, #cb1edc, #5d088f);
     color: #fff;
   }
-  .hashtology-desc {
+  .ui3-desc {
     color: #cdcdcd;
   }
-  .hashtology-btn {
+  .ui3-btn {
     color: #fff;
   }
-  .hashtology-underline {
+  .ui3-underline {
     background-color: #fff;
   }
 

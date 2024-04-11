@@ -305,6 +305,37 @@ export const PROJECTS_LISTS: Project[] = [
     cssBtn: "ecommerce-btn",
     cssUnderline: "ecommerce-underline",
   },
+  {
+    id: 5,
+    title: "uiux3",
+    stacks: {
+      FE: [
+        {
+          technology: "ReactJS",
+          techLink: REACT_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "TailwindCSS",
+          techLink: TAILWIND_LINK,
+          shouldShake: false,
+        },
+      ],
+
+      BE: [],
+      Mobile: [],
+    },
+    description: "An ui/ux web site",
+    repoLink: "https://github.com/arrovain/UI-UX-project-2/tree/main",
+    liveLink: "https://ui-ux-project-2.vercel.app/",
+    demoLink: "",
+    thumbnail: "uiux3/uiux3.svg",
+    cssWrapper: "ui3",
+    cssWrapperSm: "ui3-sm",
+    cssDesc: "ui3-desc",
+    cssBtn: "ui3-btn",
+    cssUnderline: "ui3-underline",
+  },
 ];
 
 export const SOCIAL_FOOTER = [
