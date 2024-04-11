@@ -7,7 +7,6 @@ export const PYTHON_LINK = "https://python.org";
 export const GO_LINK = "https://go.dev/";
 export const TS_LINK = "https://typescriptlang.org/";
 export const OPENAI_LINK = "https://openai.com/";
-export const JAVA_LINK = "https://java.com/";
 export const MONGO_LINK = "https://mongodb.com/";
 export const TAILWIND_LINK = "https://tailwindcss.com/";
 export const FRAMER_LINK = "https://www.framer.com/motion/";
@@ -41,6 +40,7 @@ export const SWIFT_LINK = "https://developer.apple.com/xcode/swiftui/";
 export const MAC_LINK = "https://support.apple.com/macos";
 export const XCODE_LINK = "https://developer.apple.com/xcode/";
 export const FIGMA_LINK = "https://www.figma.com/";
+export const SENTRY_LINK = "https://sentry.io/";
 
 export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
   {
@@ -62,9 +62,33 @@ export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
     techLink: TAILWIND_LINK,
     shouldShake: false,
   },
+  {
+    technology: "sentry",
+
+    techLink: SENTRY_LINK,
+    shouldShake: false,
+  },
+  {
+    technology: "html5",
+
+    techLink: "",
+    shouldShake: false,
+  },
+  {
+    technology: "css3",
+
+    techLink: "",
+    shouldShake: false,
+  },
 ];
 
 export const MAIN_RIGHT_SKILLS_LISTS: Technology[] = [
+  {
+    technology: "Javascript",
+
+    techLink: "",
+    shouldShake: false,
+  },
   {
     technology: "ReactJS",
 
@@ -80,6 +104,19 @@ export const MAIN_RIGHT_SKILLS_LISTS: Technology[] = [
 
   {
     technology: "NodeJS",
+
+    techLink: NODE_LINK,
+    shouldShake: false,
+  },
+
+  {
+    technology: "prisma",
+
+    techLink: NODE_LINK,
+    shouldShake: false,
+  },
+  {
+    technology: "cloudinary",
 
     techLink: NODE_LINK,
     shouldShake: false,
