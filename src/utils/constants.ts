@@ -207,33 +207,13 @@ export const PROJECTS_LISTS: Project[] = [
     stacks: {
       FE: [
         {
-          technology: "TypeScript",
-          techLink: TS_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "NextJS",
-          techLink: NEXT_LINK,
-          shouldShake: false,
-        },
-        {
           technology: "ReactJS",
           techLink: REACT_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "TailwindCSS",
-          techLink: TAILWIND_LINK,
           shouldShake: false,
         },
       ],
 
       BE: [
-        {
-          technology: "MongoDB",
-          techLink: MONGO_LINK,
-          shouldShake: false,
-        },
         {
           technology: "Vercel",
           techLink: VERCEL_LINK,
@@ -242,9 +222,10 @@ export const PROJECTS_LISTS: Project[] = [
       ],
       Mobile: [],
     },
-    description: "A portfolio web site",
+    description:
+      "Another portfolio web site, built with React, Sass, Email.js and FramerMotion.",
     repoLink: "https://github.com/arrovain/react-portfolio",
-    liveLink: "",
+    liveLink: "https://react-portfolio-ochre-ten.vercel.app/",
     demoLink: "",
     thumbnail: "portfolio2/portfolio2.svg",
     cssWrapper: "ui",
