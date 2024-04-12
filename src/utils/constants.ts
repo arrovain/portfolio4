@@ -150,58 +150,6 @@ export const MORE_SKILLS_LISTS: Technology[] = [
 
 export const PROJECTS_LISTS: Project[] = [
   {
-    id: 3,
-    title: "apple website",
-    stacks: {
-      FE: [
-        {
-          technology: "TypeScript",
-          techLink: TS_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "NextJS",
-          techLink: NEXT_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "ReactJS",
-          techLink: REACT_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "TailwindCSS",
-          techLink: TAILWIND_LINK,
-          shouldShake: false,
-        },
-      ],
-
-      BE: [
-        {
-          technology: "MongoDB",
-          techLink: MONGO_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "Vercel",
-          techLink: VERCEL_LINK,
-          shouldShake: false,
-        },
-      ],
-      Mobile: [],
-    },
-    description: "An ui/ux web site clone",
-    repoLink: "https://github.com/arrovain/threejs-gsap-applewebsite",
-    liveLink: "",
-    demoLink: "",
-    thumbnail: "apple_website/apple.svg",
-    cssWrapper: "ui/ux-platform",
-    cssWrapperSm: "ui/ux-sm",
-    cssDesc: "ui/ux-desc",
-    cssBtn: "ui/ux-btn",
-    cssUnderline: "ui/ux-underline",
-  },
-  {
     id: 4,
     title: "Portfolio",
     stacks: {
@@ -235,8 +183,46 @@ export const PROJECTS_LISTS: Project[] = [
     cssUnderline: "ui-underline",
   },
   {
+    id: 3,
+    title: "Apple website clone",
+    stacks: {
+      FE: [
+        {
+          technology: "ReactJS",
+          techLink: REACT_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "TailwindCSS",
+          techLink: TAILWIND_LINK,
+          shouldShake: false,
+        },
+      ],
+
+      BE: [
+        {
+          technology: "Vercel",
+          techLink: VERCEL_LINK,
+          shouldShake: false,
+        },
+      ],
+      Mobile: [],
+    },
+    description:
+      "An ui/ux web site clone, built with Threejs, Gsap, Tailwind and React",
+    repoLink: "https://github.com/arrovain/threejs-gsap-applewebsite",
+    liveLink: "https://threejs-gsap-applewebsite.vercel.app/",
+    demoLink: "",
+    thumbnail: "apple_website/apple.svg",
+    cssWrapper: "ui/ux-platform",
+    cssWrapperSm: "ui/ux-sm",
+    cssDesc: "ui/ux-desc",
+    cssBtn: "ui/ux-btn",
+    cssUnderline: "ui/ux-underline",
+  },
+  {
     id: 1,
-    title: "uiux2",
+    title: "Another uiux website",
     stacks: {
       FE: [
         {
@@ -275,7 +261,8 @@ export const PROJECTS_LISTS: Project[] = [
       ],
       Mobile: [],
     },
-    description: "An ui/ux web site",
+    description:
+      "Another uiux website, built with Nextjs, Typescript and Tailwind",
     repoLink: "https://github.com/arrovain/ui-ux",
     liveLink: "",
     demoLink: "",
@@ -288,7 +275,7 @@ export const PROJECTS_LISTS: Project[] = [
   },
   {
     id: 5,
-    title: "uiux3",
+    title: "Another uiux website",
     stacks: {
       FE: [
         {
@@ -306,7 +293,7 @@ export const PROJECTS_LISTS: Project[] = [
       BE: [],
       Mobile: [],
     },
-    description: "An ui/ux web site",
+    description: "Another uiux website, built with React, TailwindCSS",
     repoLink: "https://github.com/arrovain/UI-UX-project-2/tree/main",
     liveLink: "https://ui-ux-project-2.vercel.app/",
     demoLink: "",
