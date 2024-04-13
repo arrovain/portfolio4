@@ -76,7 +76,7 @@ export const MAIN_RIGHT_SKILLS_LISTS: Technology[] = [
   {
     technology: "Javascript",
 
-    techLink: "",
+    techLink: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     shouldShake: false,
   },
   {
