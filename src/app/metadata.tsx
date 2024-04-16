@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     siteName: "Mahmut İÇME's Portfolio",
     title: "Mahmut İÇME | Portfolio",
-    description: "Front-End Software Developer",
+    description: "Front-End Developer",
     locale: "en_US",
     type: "website",
     url: "/",
