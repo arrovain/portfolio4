@@ -15,7 +15,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Portfolio</title>
+        <link
+          rel="icon"
+          href="assets/tech_logos/javascript.svg"
+          type="image/x-icon"
+        />
+        <title>M. İÇME</title>
         <meta name="description" content="Description" />
       </head>
       <body className={nunito.className}>
