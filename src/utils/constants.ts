@@ -21,6 +21,8 @@ export const REDUX_LINK = "https://redux.js.org/";
 export const FIGMA_LINK = "https://www.figma.com/";
 export const SENTRY_LINK = "https://sentry.io/";
 export const GIT_LINK = "https://git-scm.com/";
+export const FIREBASE_LINK = "https://firebase.google.com/";
+export const SASS_LINK = "https://sass-lang.com/";
 
 export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
   {
@@ -68,6 +70,11 @@ export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
   {
     technology: "Redux",
     techLink: REDUX_LINK,
+    shouldShake: false,
+  },
+  {
+    technology: "Sass",
+    techLink: SASS_LINK,
     shouldShake: false,
   },
 ];
@@ -120,6 +127,11 @@ export const MAIN_RIGHT_SKILLS_LISTS: Technology[] = [
   {
     technology: "PostgresQL",
     techLink: POSTGRES_LINK,
+    shouldShake: false,
+  },
+  {
+    technology: "Firebase",
+    techLink: FIREBASE_LINK,
     shouldShake: false,
   },
 ];
