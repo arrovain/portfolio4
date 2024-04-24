@@ -276,7 +276,7 @@ export const PROJECTS_LISTS: Project[] = [
     description:
       "Another uiux website, built with Nextjs, Typescript and Tailwind",
     repoLink: "https://github.com/arrovain/ui-ux",
-    liveLink: "",
+    liveLink: "https://ui-ux-murex.vercel.app/",
     demoLink: "",
     thumbnail: "uiux/uiux.svg",
     cssWrapper: "ecommerce",
