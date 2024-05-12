@@ -168,21 +168,21 @@
     background-color: #fff;
   }
 
-  .nftir {
+  .netflix {
     background-image: linear-gradient(to left, #f5be80, #fd8700);
     color: #4a3313;
   }
-  .nftir-sm {
+  .netflix-sm {
     background-image: linear-gradient(to top, #f5be80, #fd8700);
     color: #4a3313;
   }
-  .nftir-desc {
+  .netflix-desc {
     color: #4a3313;
   }
-  .nftir-btn {
+  .netflix-btn {
     color: #000;
   }
-  .nftir-underline {
+  .netflix-underline {
     background-color: #000;
   }
 

@@ -27,6 +27,7 @@ export const PRISMA_LINK = "https://www.prisma.io/";
 export const SHADCN_LINK = "https://ui.shadcn.com/";
 export const SUPABASE_LINK = "https://supabase.com/";
 export const NEXTAUTH_LINK = "https://next-auth.js.org/";
+export const NEXTJS_LINK = "https://nextjs.org/";
 
 export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
   {
@@ -346,13 +347,18 @@ export const PROJECTS_LISTS: Project[] = [
           shouldShake: false,
         },
         {
-          technology: "NextAuth",
+          technology: "Nextauth",
           techLink: NEXTAUTH_LINK,
           shouldShake: false,
         },
         {
-          technology: "Shadcn",
+          technology: "Shadcnui",
           techLink: SHADCN_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "Nextjs",
+          techLink: NEXTJS_LINK,
           shouldShake: false,
         },
       ],
@@ -360,16 +366,16 @@ export const PROJECTS_LISTS: Project[] = [
       BE: [],
       Mobile: [],
     },
-    description: "Another uiux website, built with React, TailwindCSS",
-    repoLink: "https://github.com/arrovain/UI-UX-project-2/tree/main",
-    liveLink: "https://ui-ux-project-2.vercel.app/",
+    liveLink: "",
     demoLink: "",
-    thumbnail: "uiux3/uiux3.svg",
-    cssWrapper: "ui3",
-    cssWrapperSm: "ui3-sm",
-    cssDesc: "ui3-desc",
-    cssBtn: "ui3-btn",
-    cssUnderline: "ui3-underline",
+    description: "",
+    repoLink: "https://github.com/arrovain/netflix_clone",
+    thumbnail: "netflix/netflix.svg",
+    cssWrapper: "netflix",
+    cssWrapperSm: "netflix-sm",
+    cssDesc: "netflix-desc",
+    cssBtn: "netflix-btn",
+    cssUnderline: "netflix-underline",
   },
 ];
 
