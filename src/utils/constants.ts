@@ -23,6 +23,10 @@ export const SENTRY_LINK = "https://sentry.io/";
 export const GIT_LINK = "https://git-scm.com/";
 export const FIREBASE_LINK = "https://firebase.google.com/";
 export const SASS_LINK = "https://sass-lang.com/";
+export const PRISMA_LINK = "https://www.prisma.io/";
+export const SHADCN_LINK = "https://ui.shadcn.com/";
+export const SUPABASE_LINK = "https://supabase.com/";
+export const NEXTAUTH_LINK = "https://next-auth.js.org/";
 
 export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
   {
@@ -338,7 +342,7 @@ export const PROJECTS_LISTS: Project[] = [
         },
         {
           technology: "Prisma ",
-          techLink: TAILWIND_LINK,
+          techLink: PRISMA_LINK,
           shouldShake: false,
         },
         {
