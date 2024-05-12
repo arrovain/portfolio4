@@ -316,6 +316,57 @@ export const PROJECTS_LISTS: Project[] = [
     cssBtn: "ui3-btn",
     cssUnderline: "ui3-underline",
   },
+  {
+    id: 6,
+    title: "Netflix Clone",
+    stacks: {
+      FE: [
+        {
+          technology: "ReactJS",
+          techLink: REACT_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "TailwindCSS",
+          techLink: TAILWIND_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "Supabase",
+          techLink: SUPABASE_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "Prisma ",
+          techLink: TAILWIND_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "NextAuth",
+          techLink: NEXTAUTH_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "Shadcn",
+          techLink: SHADCN_LINK,
+          shouldShake: false,
+        },
+      ],
+
+      BE: [],
+      Mobile: [],
+    },
+    description: "Another uiux website, built with React, TailwindCSS",
+    repoLink: "https://github.com/arrovain/UI-UX-project-2/tree/main",
+    liveLink: "https://ui-ux-project-2.vercel.app/",
+    demoLink: "",
+    thumbnail: "uiux3/uiux3.svg",
+    cssWrapper: "ui3",
+    cssWrapperSm: "ui3-sm",
+    cssDesc: "ui3-desc",
+    cssBtn: "ui3-btn",
+    cssUnderline: "ui3-underline",
+  },
 ];
 
 export const SOCIAL_FOOTER = [
