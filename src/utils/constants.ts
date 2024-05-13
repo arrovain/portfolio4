@@ -167,8 +167,8 @@ export const MORE_SKILLS_LISTS: Technology[] = [
 
 export const PROJECTS_LISTS: Project[] = [
   {
-    id: 4,
-    title: "Portfolio",
+    id: 6,
+    title: "AI PDF Platform",
     stacks: {
       FE: [
         {
@@ -176,29 +176,39 @@ export const PROJECTS_LISTS: Project[] = [
           techLink: REACT_LINK,
           shouldShake: false,
         },
-      ],
-
-      BE: [
         {
-          technology: "Vercel",
-          techLink: VERCEL_LINK,
+          technology: "TailwindCSS",
+          techLink: TAILWIND_LINK,
+          shouldShake: false,
+        },
+
+        {
+          technology: "Shadcnui",
+          techLink: SHADCN_LINK,
+          shouldShake: false,
+        },
+        {
+          technology: "Nextjs",
+          techLink: NEXTJS_LINK,
           shouldShake: false,
         },
       ],
+
+      BE: [],
       Mobile: [],
     },
-    description:
-      "Another portfolio web site, built with React, Sass, Email.js and FramerMotion.",
-    repoLink: "https://github.com/arrovain/react-portfolio",
-    liveLink: "https://react-portfolio-ochre-ten.vercel.app/",
+    liveLink: "",
     demoLink: "",
-    thumbnail: "portfolio2/portfolio2.svg",
-    cssWrapper: "ui",
-    cssWrapperSm: "ui-sm",
-    cssDesc: "ui-desc",
-    cssBtn: "ui-btn",
-    cssUnderline: "ui-underline",
+    description: "AI PDFChat project (You can upload a pdf and chat with it)",
+    repoLink: "https://github.com/arrovain/ai-platform",
+    thumbnail: "aipdf/aipdf.svg",
+    cssWrapper: "cpr",
+    cssWrapperSm: "cpr-sm",
+    cssDesc: "cpr-desc",
+    cssBtn: "cpr-btn",
+    cssUnderline: "cpr-underline",
   },
+
   {
     id: 3,
     title: "Apple website clone",
@@ -376,6 +386,39 @@ export const PROJECTS_LISTS: Project[] = [
     cssDesc: "netflix-desc",
     cssBtn: "netflix-btn",
     cssUnderline: "netflix-underline",
+  },
+  {
+    id: 4,
+    title: "Portfolio",
+    stacks: {
+      FE: [
+        {
+          technology: "ReactJS",
+          techLink: REACT_LINK,
+          shouldShake: false,
+        },
+      ],
+
+      BE: [
+        {
+          technology: "Vercel",
+          techLink: VERCEL_LINK,
+          shouldShake: false,
+        },
+      ],
+      Mobile: [],
+    },
+    description:
+      "Another portfolio web site, built with React, Sass, Email.js and FramerMotion.",
+    repoLink: "https://github.com/arrovain/react-portfolio",
+    liveLink: "https://react-portfolio-ochre-ten.vercel.app/",
+    demoLink: "",
+    thumbnail: "portfolio2/portfolio2.svg",
+    cssWrapper: "ui",
+    cssWrapperSm: "ui-sm",
+    cssDesc: "ui-desc",
+    cssBtn: "ui-btn",
+    cssUnderline: "ui-underline",
   },
 ];
 
