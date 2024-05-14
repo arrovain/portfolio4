@@ -351,16 +351,7 @@ export const PROJECTS_LISTS: Project[] = [
           techLink: SUPABASE_LINK,
           shouldShake: false,
         },
-        {
-          technology: "Prisma ",
-          techLink: PRISMA_LINK,
-          shouldShake: false,
-        },
-        {
-          technology: "Nextauth",
-          techLink: NEXTAUTH_LINK,
-          shouldShake: false,
-        },
+
         {
           technology: "Shadcnui",
           techLink: SHADCN_LINK,
