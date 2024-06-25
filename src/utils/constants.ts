@@ -29,6 +29,7 @@ export const SUPABASE_LINK = "https://supabase.com/";
 export const NEXTAUTH_LINK = "https://next-auth.js.org/";
 export const NEXTJS_LINK = "https://nextjs.org/";
 export const LARAVEL_LINK = "https://laravel.com/";
+export const PHP_LINK = "https://www.php.net/";
 
 export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
   {
@@ -108,6 +109,12 @@ export const MAIN_RIGHT_SKILLS_LISTS: Technology[] = [
     technology: "NextJS",
 
     techLink: NEXT_LINK,
+    shouldShake: false,
+  },
+  {
+    technology: "Php",
+
+    techLink: PHP_LINK,
     shouldShake: false,
   },
 
