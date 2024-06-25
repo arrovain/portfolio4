@@ -28,12 +28,19 @@ export const SHADCN_LINK = "https://ui.shadcn.com/";
 export const SUPABASE_LINK = "https://supabase.com/";
 export const NEXTAUTH_LINK = "https://next-auth.js.org/";
 export const NEXTJS_LINK = "https://nextjs.org/";
+export const LARAVEL_LINK = "https://laravel.com/";
 
 export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
   {
     technology: "TypeScript",
 
     techLink: TS_LINK,
+    shouldShake: false,
+  },
+  {
+    technology: "Laravel",
+
+    techLink: LARAVEL_LINK,
     shouldShake: false,
   },
 
