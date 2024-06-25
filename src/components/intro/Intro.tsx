@@ -73,7 +73,7 @@ const Intro = () => {
             className="text-lg sm:text-xl font-bold drop-shadow-xl"
           >
             <SmotionDiv variants={descriptionVariants}>
-              Frontend Developer.
+              Full-Stack Developer.
             </SmotionDiv>
           </SmotionDiv>
         </div>

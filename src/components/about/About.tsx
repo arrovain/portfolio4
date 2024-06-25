@@ -50,7 +50,7 @@ const About = () => {
         >
           <SmotionDiv>
             <p>
-              Front-End Developer with 2+ years of experience designing,
+              Full-Stack Developer with 2+ years of experience designing,
               developing, and managing complex e-commerce sites and internal
               frameworks. Specializes in React and responsive design.
             </p>
