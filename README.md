@@ -1,11 +1,38 @@
-Fully responsive portfolio website [Live Here](https://icmeportfolio.vercel.app/)
+# Portfolio Website
 
-Built with TypeScript, React.js, Vite.js, TailwindCSS, Framer Motion, Figma and Vercel.
+## Live
+[Portfolio Website](https://icmeportfolio.vercel.app)
 
-![image](https://github.com/arrovain/portfolio4/assets/127416772/2b2cac5e-eab8-4b06-8a37-946d54208dd5)
+## Technologies Used
+- TypeScript
+- React.js
+- Next.js
+- TailwindCSS
+- Framer Motion
+- Figma (for design)
+- Vercel (for deployment)
 
-![image](https://github.com/arrovain/portfolio4/assets/127416772/a0caf0d6-2cd4-437c-9318-81cc2f2e29d6)
+## Features
 
-![image](https://github.com/arrovain/portfolio4/assets/127416772/fee644c4-135f-4924-8450-082e3763752d)
+### 1. React.js
+- Component-based architecture
+- Hooks for state management
 
-![image](https://github.com/arrovain/portfolio4/assets/127416772/a050cc0c-9426-4c09-b6b0-4ffc2d09313c)
+### 2. Next.js
+- Server-side rendering and static site generation capabilities
+- Optimized performance and SEO
+- Easy routing and API routes
+
+### 3. TailwindCSS
+- Utility-first CSS framework for rapid UI development
+- Customizable design system
+- Responsive design implementation
+
+### 4. Framer Motion
+- Smooth, high-performance animations
+- Interactive UI elements
+- Page transitions and micro-interactions
+
+![image](https://github.com/user-attachments/assets/5976d5c1-2983-45f4-af23-24a14da33721)
+![image](https://github.com/user-attachments/assets/3f0b25e9-31b0-47f6-8844-20fa4ca1cc7b)
+![image](https://github.com/user-attachments/assets/b708dc15-2120-4287-9f03-f61ed2be081e)
