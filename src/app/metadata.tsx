@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description: "Front-End Developer",
   authors: {
     name: "Mahmut İÇME",
-    url: "https://github.com/",
+    url: "https://github.com/arrovain",
   },
   keywords: ["Mahmut İÇME"],
   icons: {
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   openGraph: {
     siteName: "Mahmut İÇME's Portfolio",
     title: "Mahmut İÇME | Portfolio",
-    description: "Front-End Developer",
-    locale: "en_US",
+    description: "Fullstack Developer",
+    locale: "tr_TR",
     type: "website",
     url: "/",
     images: {

@@ -30,6 +30,7 @@ export const NEXTAUTH_LINK = "https://next-auth.js.org/";
 export const NEXTJS_LINK = "https://nextjs.org/";
 export const LARAVEL_LINK = "https://laravel.com/";
 export const PHP_LINK = "https://www.php.net/";
+export const VUE_LINK = "https://vuejs.org/";
 
 export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
   {
@@ -46,9 +47,9 @@ export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
   },
 
   {
-    technology: "MongoDB",
+    technology: "Vue",
 
-    techLink: MONGO_LINK,
+    techLink: VUE_LINK,
     shouldShake: false,
   },
   {
@@ -81,8 +82,8 @@ export const MAIN_LEFT_SKILLS_LISTS: Technology[] = [
     shouldShake: false,
   },
   {
-    technology: "Redux",
-    techLink: REDUX_LINK,
+    technology: "mongodb",
+    techLink: MONGO_LINK,
     shouldShake: false,
   },
   {
@@ -394,11 +395,11 @@ export const PROJECTS_LISTS: Project[] = [
   },
   {
     id: 4,
-    title: "Portfolio",
+    title: "Laravel Review App",
     stacks: {
       FE: [
         {
-          technology: "ReactJS",
+          technology: "Vue",
           techLink: REACT_LINK,
           shouldShake: false,
         },
@@ -406,19 +407,19 @@ export const PROJECTS_LISTS: Project[] = [
 
       BE: [
         {
-          technology: "Vercel",
-          techLink: VERCEL_LINK,
+          technology: "Laravel",
+          techLink: LARAVEL_LINK,
           shouldShake: false,
         },
       ],
       Mobile: [],
     },
     description:
-      "Another portfolio web site, built with React, Sass, Email.js and FramerMotion.",
-    repoLink: "https://github.com/arrovain/react-portfolio",
-    liveLink: "https://react-portfolio-ochre-ten.vercel.app/",
+      "Review app project, Built with Laravel 11 + Vue 3 Composition API",
+    repoLink: "https://github.com/arrovain/laravel-vue-review-app",
+    liveLink: "",
     demoLink: "",
-    thumbnail: "portfolio2/portfolio2.svg",
+    thumbnail: "empty/image.svg",
     cssWrapper: "ui",
     cssWrapperSm: "ui-sm",
     cssDesc: "ui-desc",
